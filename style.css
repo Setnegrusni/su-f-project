@@ -41,7 +41,7 @@ body {
 }
 
 .logo-img {
-    width: 90px;
+    width: 85px;
     margin: 10px 0px;
 }
 
@@ -74,4 +74,40 @@ body {
 .form-section {
     width: 60vw;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: lightgray;
+}
+
+.top-section, 
+.bottom-section {
+    height: 35vh;
+}
+
+.top-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /*Manda el contenido a la parte baja del div*/
+}
+
+.top-section > p {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+p[class="para-one"] {
+    margin: 0vw 4vw 3vw 3vw;
+}
+
+p[class="para-two"] {
+    margin: 0vw 4vw 4vw 3vw;
+}
+
+.middle-section {
+    background: white;
+    height: 30vh;
+}
+
+.data-input {
+    display: flex;
 }
