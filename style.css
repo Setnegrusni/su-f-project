@@ -91,7 +91,8 @@ button + p > a:visited {
     justify-content: flex-end; /*Manda el contenido a la parte baja del div*/
 }
 
-.top-section > p {
+.top-section > p,
+.middle-section > p {
     font-size: 1.3rem;
     font-weight: bold;
 }
@@ -109,8 +110,51 @@ p[class="para-two"] {
     height: 30vh;
 }
 
+.middle-section > p {
+    margin: 2vh 0 2vh 5vh;
+}
+
+.column-one {
+    margin: 0 0 0 5vh;
+}
+
+input:focus { /*No se aplican por alguna razón*/
+    border-color: blue;
+    box-shadow: black;
+}
+
+input {
+    margin: 0 0 3vh 0;
+    border-color: #E5E7EB;
+    border-style: solid;
+    border-radius: 5px;
+    min-height: 2rem;
+}
+
+#pass:invalid,
+#confirm-pass:invalid {
+    border-color: red;
+}
+
+#pass:valid,
+#confirm-pass:valid {
+    border-color: green;
+}
+
+.lab-inp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+label {
+    font-size: 0.6rem;
+    font-weight: bold;
+}
+
 .data-input {
     display: flex;
+    gap: 5vw;
 }
 
 #create-account {
