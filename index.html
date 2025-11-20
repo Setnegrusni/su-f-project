@@ -37,20 +37,32 @@
                 <p>Let's do this!</p>
                 <div class="data-input">
                     <div class="column-one">
-                        <label for="first-name">FIRST NAME</label>
-                        <input type="text" name="first-name">
-                        <label for="e-mail">EMAIL</label>
-                        <input type="email" name="e-mail">
-                        <label for="pass">PASSWORD</label>
-                        <input type="password" name="pass">
+                        <div class="lab-inp">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" id="first-name" name="first-name">
+                        </div>
+                        <div class="lab-inp">
+                            <label for="e-mail">EMAIL</label>
+                            <input type="email" id="e-mail" name="e-mail">
+                        </div>
+                        <div class="lab-inp">
+                            <label for="pass">PASSWORD</label>
+                            <input type="password" id="pass" name="pass" minlength="6">
+                        </div>
                     </div>
                     <div class="column-two">
-                        <label for="last-name">LAST NAME</label>
-                        <input type="text" name="last-name">
-                        <label for="phone-number">PHONE NUMBER</label>
-                        <input type="number" name="phone-number">
-                        <label for="confirm-pass">CONFIRM PASSWORD</label>
-                        <input type="password" name="confirm-pass">
+                        <div class="lab-inp">
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" id="last-name" name="last-name">
+                        </div>
+                        <div class="lab-inp">
+                            <label for="phone-number">PHONE NUMBER</label>
+                            <input type="number" id="phone-number" name="phone-number">
+                        </div>
+                        <div class="lab-inp">
+                            <label for="confirm-pass">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirm-pass" name="confirm-pass" minlength="6">
+                        </div>
                     </div>
                 </div>
             </div>
