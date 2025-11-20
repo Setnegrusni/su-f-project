@@ -118,11 +118,6 @@ p[class="para-two"] {
     margin: 0 0 0 5vh;
 }
 
-input:focus { /*No se aplican por alguna razón*/
-    border-color: blue;
-    box-shadow: black;
-}
-
 input {
     margin: 0 0 3vh 0;
     border-color: #E5E7EB;
@@ -131,14 +126,19 @@ input {
     min-height: 2rem;
 }
 
-#pass:invalid,
-#confirm-pass:invalid {
-    border-color: red;
+input:focus { /*No se aplican por alguna razón*/
+    outline: blue;
+    box-shadow: black;
 }
 
 #pass:valid,
 #confirm-pass:valid {
     border-color: green;
+}
+
+#pass:invalid,
+#confirm-pass:invalid {
+    border-color: red;
 }
 
 .lab-inp {
