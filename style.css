@@ -126,9 +126,9 @@ input {
     min-height: 2rem;
 }
 
-input:focus { /*No se aplican por alguna razón*/
-    outline: blue;
-    box-shadow: black;
+input:focus {
+    border-color: solid blue;
+    box-shadow: 0 0 5px black;
 }
 
 #pass:valid,
